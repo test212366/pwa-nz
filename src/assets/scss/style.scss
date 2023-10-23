@@ -1,0 +1,14 @@
+@import "blocks/vars";
+html {
+	font-size: 62.5%;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: $bg;
+	font-size: 1.4rem;
+	color: white;
+}
+
+@import "blocks/_header.scss";
+@import "blocks/_scroll.scss";
